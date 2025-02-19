@@ -28,7 +28,7 @@ const Home = () => {
         <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
         <h1 className='left_heading' ref={typedRef}></h1>
 
-          <a href='https://drive.google.com/file/d/1JZFEi5F-WJmxkuqjaf21AGFRPT17y0yP/view?usp=drivesdk'
+          <a href='https://drive.google.com/file/d/1_wOqfuxze-8Pc5rMVi7e1mMGJHIB7UC8/view'
           target="_blank" className='btn default-btn'>Resume</a>
         </div>
         <div className="right">
