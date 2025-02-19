@@ -1,5 +1,13 @@
 [
   {
+    "title": "DSA",
+    "imageSrc": "skills/dsa.png"
+  },
+  {
+    "title": "C++",
+    "imageSrc": "skills/cpp.png"
+  },
+  {
     "title": "HTML",
     "imageSrc": "skills/html.png"
   },
@@ -20,19 +28,23 @@
     "imageSrc": "skills/node.png"
   },
   {
-    "title":"Firebase",
-    "imageSrc":"skills/firebase.png"
+    "title":"Express",
+    "imageSrc":"skills/express.png"
   },
   {
-    "title": "GraphQL",
-    "imageSrc": "skills/graphql.png"
+    "title": "SQL",
+    "imageSrc": "skills/Sql.jpeg"
   },
   {
     "title": "MongoDB",
     "imageSrc": "skills/mongodb.png"
   },
   {
-    "title": "Figma",
-    "imageSrc": "skills/figma.png"
+    "title": "OS",
+    "imageSrc": "skills/os.jpg"
+  },
+  {
+    "title": "DBMS",
+    "imageSrc": "skills/DBMS.png"
   }
 ]

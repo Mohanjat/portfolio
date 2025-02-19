@@ -1,33 +1,12 @@
 [
   {
     "id": 1,
-    "role": "NA",
-    "organisation": "",
-    "startDate": "Sept, 2023",
-    "endDate": "Present",
-    "location": "",
-    "experiences": [],
-    "imageSrc": "company/google.png"
-  },
-  {
-    "id": 2,
-    "role": "",
-    "organisation": "",
-    "startDate": "",
-    "endDate": "",
-    "location": "",
-    "experiences": [],
-    "imageSrc": "company/microsoft.png"
-  },
-  {
-    "id": 3,
-    "role": "sdf",
-    "organisation": "",
-    "startDate": "",
-    "endDate": "",
-    "location": "",
-    "experiences": [
-    ],
-    "imageSrc": "company/netflix.png"
+    "role": "Advanced Software Engineering Intern",
+    "organisation": "Forage",
+    "startDate": "July, 2023",
+    "endDate": "Aug, 2023",
+    "location": "Remote",
+    "experiences": ["That was great"],
+    "imageSrc": "company/forage.jpeg"
   }
 ]
