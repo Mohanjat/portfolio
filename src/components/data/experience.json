@@ -6,7 +6,17 @@
     "startDate": "July, 2023",
     "endDate": "Aug, 2023",
     "location": "Remote",
-    "experiences": ["That was great"],
+    "experiences": ["Solved real-world problems for Walmart's Shipping Department"],
     "imageSrc": "company/forage.jpeg"
+  },
+  {
+    "id": 2,
+    "role": "Machine Learning",
+    "organisation": "Fox Trading",
+    "startDate": "Oct, 2023",
+    "endDate": "Nov, 2023",
+    "location": "Remote",
+    "experiences": ["Worked on a project to predict rental bike demand at one stop"],
+    "imageSrc": "company/1Stop.png"
   }
 ]

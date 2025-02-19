@@ -42,6 +42,21 @@
     transition: background-color 0.3s ease,transform color 0.3s ease;
 }
 
+.exp_img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.skill_img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+}
 
 .btn_warning:hover {
     background-color: #ffd100;
@@ -341,7 +356,7 @@ a {
     box-shadow: var(--box-shadow);
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 900px) {
     .exp {
         max-width: 100%;
         padding: 0 10px; /* Add padding for better spacing */
@@ -351,7 +366,7 @@ a {
         margin-bottom: 2rem; /* Adjust margin for smaller screens */
     }
 
-    .exp_items {
+    .exp_items{
         flex-direction: column; /* Stack items vertically */
         align-items: center; /* Align items to the start */
         margin: 10px 0; /* Adjust margin for better spacing */
@@ -359,6 +374,13 @@ a {
         max-width: 100%; /* Ensure the items use full width */
         gap: 1rem;
         margin-bottom: 3rem;
+    }
+
+    .exp_content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 auto;
     }
 }
 
@@ -412,7 +434,7 @@ a {
 
 
 /* Media Query for max-width 550px */
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 700px) {
     .skills {
         max-width:100%;
         padding: 0 10px; /* Add padding for better spacing */
@@ -420,7 +442,7 @@ a {
 
     .skills .items {
         max-width: 100%;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 160px)); /* 1 box per row */
+        grid-template-columns: repeat(auto-fit, minmax(150px, 200px)); /* 1 box per row */
         gap: 12px; /* Adjust the gap between boxes */
     }
 
@@ -431,6 +453,14 @@ a {
 
     .skills .items .item img {
         max-width: 50px; /* Reduce the size of images */
+    }
+
+    .skill_img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+        overflow: hidden;
     }
 }
 
@@ -446,7 +476,7 @@ a {
     color: #DEE2E6;
 }
 
-.projects .project {
+.projects .project{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -459,8 +489,8 @@ a {
 .project_item {
     margin: 1.5rem auto;
     background-color: var(--bg-color);
-    max-width: 15rem;
-    height: 25rem;
+    max-width: 20rem;
+    max-height: 35rem;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -471,7 +501,7 @@ a {
 }
 
 .project_item:hover {
-    transform: scale(1.02);
+    transform: scale(1.03);
 }
 
 .card_img {
@@ -483,6 +513,11 @@ a {
     /* border: 1.2px solid yellow; */
     border-radius: 7px;
     box-shadow: var(--box-shadow);
+    transition: transform 0.3s ease;
+}
+
+.card_img:hover{
+    transform: scale(1.03);
 }
 
 .card_content {
@@ -502,6 +537,13 @@ a {
 
 .particles_container {
     transform: translateZ(0);
+}
+
+@media screen and (max-width: 780px){
+    .project{
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 

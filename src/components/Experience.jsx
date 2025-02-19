@@ -14,20 +14,22 @@ const Experience = () => {
                 <>
                 <div key={data.id} className="exp_items" data-aos="zoom-in" data-aos-duration="1000">
                   <div className="left">
-                    <img src={`./assets/${data.imageSrc}`} alt="" />
+                    <img className='exp_img' src={`./assets/${data.imageSrc}`} alt="" />
                   </div>
-                  <div className="right">
+                  <div className="right exp_content">
                     <h2>{data.role}</h2>
                     <h4>
                       <span > 
-                         {data.startDate} {data.endDate}
+                         {data.startDate} to {data.endDate}
                       </span>{" "}
                       <span>
                        {data.location}
                       </span>
                     </h4>
+                    
                     <h5>{data.experiences[1]}</h5>
                     <h5>{data.experiences[0]}</h5>
+                    
                   </div>
                 </div>
                 </>

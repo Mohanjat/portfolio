@@ -2,7 +2,7 @@
   {
     "key": 1,
     "title": "StudyNotion EdTech",
-    "imageSrc": "project/StudyNotion.png",
+    "imageSrc": "assets/project/StudyNotion.png",
     "description": "StudyNotion is a MERN stack ed-tech platform enabling students to access interactive courses and instructors to manage content globally. Built with ReactJS, NodeJS, ExpressJS, and MongoDB, it ensures scalability with RESTful APIs, with plans for gamification and a mobile app..",
     "demo": "https://www.example.com",
     "source": "https://github.com/Mohanjat/studynotion-edtech-project"
@@ -22,13 +22,5 @@
     "description": "Developed the frontend of a modern GPT-3 app using ReactJS, implementing CSS BEM for efficient styling. Focused on responsive design, delivering a visually appealing and user-friendly UI/UX experience.",
     "demo": "https://www.example.com",
     "source": "https://github.com/Mohanjat/modern_gpt"
-  },
-  {
-    "key": 4,
-    "title": "React Firebase App",
-    "imageSrc": "https://cdn.pixabay.com/photo/2021/03/02/01/07/cyberpunk-6061251_640.jpg",
-    "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
   }
 ]

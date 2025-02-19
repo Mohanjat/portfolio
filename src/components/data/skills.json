@@ -17,11 +17,11 @@
   },
   {
     "title": "JavaScript",
-    "imageSrc": "skills/javascript.png"
+    "imageSrc": "skills/JS.jpg"
   },
   {
     "title": "React",
-    "imageSrc": "skills/react.png"
+    "imageSrc": "skills/react js.jpg"
   },
   {
     "title": "Node",
@@ -29,7 +29,7 @@
   },
   {
     "title":"Express",
-    "imageSrc":"skills/express.png"
+    "imageSrc":"skills/express.webp"
   },
   {
     "title": "SQL",
