@@ -7,7 +7,7 @@ const Home = () => {
 
   useEffect(() => {
     const options = {
-      strings: ["Wlcm to my profile", "My name is Mohan Jat", "I'm a full stack developer"],
+      strings: ["Welcome to my profile", "My name is Mohan Jat", "I'm a full stack developer"],
       typeSpeed: 70,
       backSpeed: 30,
       loop: true,
